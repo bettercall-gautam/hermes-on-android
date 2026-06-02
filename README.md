@@ -254,7 +254,7 @@ You should get a Telegram message saying Hermes is online. Send it a message to 
 
 Here is exactly what happens when you send Hermes a command:
 
-![Hermes Command Flow](./assets/flow.png)
+![Hermes Command Flow](./flow.png)
 
 ---
 
