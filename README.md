@@ -30,7 +30,7 @@ It has a custom personality loaded from a file called SOUL.md, knows your person
 
 One command. Six integrations. Running on a 3GB Android phone.
 
-![Evening Briefing](./assets/evening-briefing.jpg)
+![Afternoon Briefing](./assets/afternoon-briefing.jpg)
 
 Hermes reading your Gmail and forwarding a summary to someone else on Telegram:
 
