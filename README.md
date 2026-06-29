@@ -37,31 +37,31 @@ It has a custom personality loaded from a file called SOUL.md, knows your person
 ## See it in action
 
 <div align="center">
-  <img src="./assets/afternoon-briefing.jpg" alt="Afternoon Briefing" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <img src="./assets/afternoon-briefing.jpg" alt="Afternoon Briefing" style="max-width: 400px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
   <br>
   <em>Hermes delivering your afternoon briefing</em>
 </div>
 
 <div align="center">
-  <img src="./assets/gmail-to-telegram.jpg" alt="Gmail to Telegram" style="max-width: 95%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <img src="./assets/gmail-to-telegram.jpg" alt="Gmail to Telegram" style="max-width: 650px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
   <br>
   <em>Forwarding a Gmail summary to a Telegram contact</em>
 </div>
 
 <div align="center">
-  <img src="./assets/reddit-digest.jpg" alt="Reddit Digest" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <img src="./assets/reddit-digest.jpg" alt="Reddit Digest" style="max-width: 400px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
   <br>
   <em>Fetching top posts from any subreddit</em>
 </div>
 
 <div align="center">
-  <img src="./assets/github-integration.jpg" alt="GitHub Integration" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <img src="./assets/github-integration.jpg" alt="GitHub Integration" style="max-width: 400px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
   <br>
   <em>Reading a repo and sending the README as a file</em>
 </div>
 
 <div align="center">
-  <img src="./assets/group-chat.jpg" alt="Group Chat" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <img src="./assets/group-chat.jpg" alt="Group Chat" style="max-width: 400px; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
   <br>
   <em>Holding a group conversation with a real personality</em>
 </div>
