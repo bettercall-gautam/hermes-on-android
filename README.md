@@ -1,10 +1,19 @@
+<div align="center">
+
 # Hermes 🤖
 
 > A 24/7 personal AI agent running on an old Android phone. Free to run. No cloud server. No monthly bill. Just you, Termux, and a phone that was collecting dust.
 
 **Built by Gautam** ([@bettercall-gautam](https://github.com/bettercall-gautam))
 
-![Free to run](https://img.shields.io/badge/cost-$0.00-brightgreen) ![Runs on Android](https://img.shields.io/badge/runs%20on-Android-blue) ![Built with Termux](https://img.shields.io/badge/built%20with-Termux-black) ![Powered by Hermes](https://img.shields.io/badge/powered%20by-Hermes%20Agent-orange)
+<br>
+
+<img src="https://img.shields.io/badge/cost-$0.00-brightgreen" alt="Free to run">
+<img src="https://img.shields.io/badge/runs%20on-Android-blue" alt="Runs on Android">
+<img src="https://img.shields.io/badge/built%20with-Termux-black" alt="Built with Termux">
+<img src="https://img.shields.io/badge/powered%20by-Hermes%20Agent-orange" alt="Powered by Hermes">
+
+</div>
 
 ---
 
@@ -25,29 +34,37 @@ Hermes is a personal AI agent built on top of [Hermes Agent](https://github.com/
 It has a custom personality loaded from a file called SOUL.md, knows your personal context from USER.md, and uses a smart fallback chain of free AI providers so it never goes fully offline.
 
 ---
-
 ## See it in action
 
-One command. Six integrations. Running on a 3GB Android phone.
+<div align="center">
+  <img src="./assets/afternoon-briefing.jpg" alt="Afternoon Briefing" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <br>
+  <em>Hermes delivering your afternoon briefing</em>
+</div>
 
-![Afternoon Briefing](./assets/afternoon-briefing.jpg)
+<div align="center">
+  <img src="./assets/gmail-to-telegram.jpg" alt="Gmail to Telegram" style="max-width: 95%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <br>
+  <em>Forwarding a Gmail summary to a Telegram contact</em>
+</div>
 
-Hermes reading your Gmail and forwarding a summary to someone else on Telegram:
+<div align="center">
+  <img src="./assets/reddit-digest.jpg" alt="Reddit Digest" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <br>
+  <em>Fetching top posts from any subreddit</em>
+</div>
 
-![Gmail to Telegram](./assets/gmail-to-telegram.jpg)
+<div align="center">
+  <img src="./assets/github-integration.jpg" alt="GitHub Integration" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <br>
+  <em>Reading a repo and sending the README as a file</em>
+</div>
 
-Pulling today's top posts from any subreddit with full detail, author, links and summaries:
-
-![Reddit Digest](./assets/reddit-digest.jpg)
-
-Hermes reading your GitHub repo and sending the README as a file:
-
-![GitHub Integration](./assets/github-integration.jpg)
-
-Hermes in a group chat, holding a conversation with actual personality:
-
-![Group Chat](./assets/group-chat.jpg)
-
+<div align="center">
+  <img src="./assets/group-chat.jpg" alt="Group Chat" style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); margin: 20px 0; border: 1px solid #e1e4e8;" loading="lazy">
+  <br>
+  <em>Holding a group conversation with a real personality</em>
+</div>
 ---
 
 ## What you can do with it
