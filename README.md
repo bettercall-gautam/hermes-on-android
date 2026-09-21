@@ -29,7 +29,7 @@ This repo documents everything. How I built it, what broke, what lied to me, and
 
 ## What is Hermes
 
-Hermes is a personal AI agent built on top of [Hermes Agent](https://github.com/NousResearch/hermes-agent) running inside Termux on an Android phone. You talk to it over Telegram. It reads your emails, manages your calendar, summarizes Reddit, checks your GitHub, fetches live weather, and does whatever you tell it to, all for free.
+Hermes is a personal AI agent built on top of [Hermes Agent](https://github.com/NousResearch/hermes-agent) running inside Termux on an Android phone. You talk to it over Telegram. It reads your emails, checks your GitHub, fetches live weather, and does whatever you tell it to, all for free. Google Calendar and Reddit are planned, but they are not connected in the build documented here.
 
 It has a custom personality loaded from a file called SOUL.md, knows your personal context from USER.md, and uses a smart fallback chain of free AI providers so it never goes fully offline.
 
@@ -80,8 +80,8 @@ It has a custom personality loaded from a file called SOUL.md, knows your person
 ## What you can do with it
 
 - Read, search, draft and send emails via Gmail
-- Check and create Google Calendar events
-- Get Reddit digests from any subreddit with post links and summaries
+- Planned: check and create Google Calendar events
+- Planned: get Reddit digests from any subreddit with post links and summaries
 - Get live weather for any city
 - Read and manage GitHub repos, issues and notifications
 - Forward email summaries to any Telegram user
@@ -161,7 +161,7 @@ Go to [openrouter.ai](https://openrouter.ai), create an account and get your API
 hermes setup
 ```
 
-Select OpenRouter as your provider and paste your API key when asked. Set the model to `openrouter/auto` for free routing.
+Select OpenRouter as your provider and paste your API key when asked. Set the model to `openrouter/free` so it only routes to free models. Do not use `openrouter/auto`: it can silently pick paid models.
 
 **Fallback 1: Gemini**
 
@@ -238,6 +238,8 @@ Add your name, location, schedule, projects, devices and anything else you want 
 > Note: Hermes auto-writes to USER.md when you correct it during conversations. Each correction gets saved as a new entry. This is normal behavior, not a bug.
 
 ### Step 7: Connect Gmail and Google Calendar
+
+> Status: Gmail is connected in this build. Google Calendar is planned and has not been connected yet.
 
 Both Gmail and Calendar use the same Google OAuth2 token. You set them up together.
 
@@ -323,6 +325,8 @@ source ~/.hermes/.env && curl -s "https://api.openweathermap.org/data/2.5/weathe
 Replace `YourCity` with your actual city name.
 
 ### Step 10: Set up Reddit digest
+
+> Status: Reddit is planned and has not been connected in this build yet.
 
 The Reddit digest uses RSS feeds so no API key is needed.
 
@@ -492,8 +496,8 @@ This is a common hallucination. When Hermes says a script does not exist or a to
 
 - [x] Gmail integration
 - [x] GitHub integration
-- [x] Google Calendar integration
-- [x] Reddit digest integration
+- [ ] Google Calendar integration
+- [ ] Reddit digest integration
 - [x] Live weather integration
 - [ ] Morning briefing skill (weather + calendar + Reddit combined, auto-sent daily)
 - [ ] Quick todo via Google Calendar
